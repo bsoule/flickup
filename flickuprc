@@ -1,0 +1,7 @@
+$flickr_key = ; # your flickr key 
+$flickr_secret = ; # your flickr secret
+$auth_token = ; # your auth_token
+
+$inbox = '/Volumes/FAIRE-CARD/DCIM/100CASIO'; # path to SD card photos when it mounts on yr computer
+$succdir = '/Users/dreeves/svn/flickup/success'; # path to success dir
+$faildir = '/Users/dreeves/svn/flickup/fail';    # path to failure dir

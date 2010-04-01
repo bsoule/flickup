@@ -1,0 +1,12 @@
+1. Install perl module Flickr::Upload. Instructions:
+     cpan Flickr::Upload
+
+2. Copy flickuprc to ~/.flickuprc and mutandis mutandi.
+
+3. Get an authtoken with the auth_token.pl script.
+   (Only needs to be done once; already done for soule-reeves.)
+
+WAIT, don't do the following or it will upload multiple copies;
+I'm going to make a daemon.
+4. Put something like this in your crontab:
+   * * * * * /Users/dreeves/svn/flickup/flickup.pl > /dev/null &
